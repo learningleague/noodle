@@ -1,0 +1,38 @@
+import { pgEnum } from 'drizzle-orm/pg-core';
+
+export const colorsEnum = pgEnum('Colors', [
+  'primary',
+
+  'gray',
+  'mauve',
+  'slate',
+  'sage',
+  'olive',
+  'sand',
+
+  'tomato',
+  'red',
+  'ruby',
+  'crimson',
+  'pink',
+  'plum',
+  'purple',
+  'violet',
+  'iris',
+  'indigo',
+  'blue',
+  'cyan',
+  'teal',
+  'jade',
+  'green',
+  'grass',
+  'bronze',
+  'gold',
+  'brown',
+  'orange',
+  'amber',
+  'yellow',
+  'lime',
+  'mint',
+  'sky',
+]);
